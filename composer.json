@@ -1,0 +1,15 @@
+{
+    "name": "diasbruno/swifting-php",
+    "description": "Simple to use Swift component.",
+    "homepage": "http://github.com/diasbruno/swifting-php",
+    "minimum-stability": "master",
+    "require": {
+        "swiftmailer/swiftmailer": "@stable"
+    },
+    "include-path": ["src"],
+    "autoload": {
+        "files": [
+            "src/SwiftEmail.php"
+        ]
+    }
+}
